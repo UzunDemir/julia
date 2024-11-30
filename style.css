@@ -1,6 +1,10 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:wght@800&display=swap" rel="stylesheet">
+
 body {
   margin:0;
-  background-color:#FF7F00;
+  background-color:#ffffff;
   overflow:hidden;
 }
 #main {
@@ -8,6 +12,19 @@ body {
   margin:auto;
   width:360px;
   height:460px;
+}
+.game-title_sw {
+  position:relative;
+  display:flex;
+  justify-content:center;
+  margin-left:auto;
+  margin-righ:auto;
+  z-index:10000;
+  color:#FF8C00;
+  top: 20px;
+  font-family: 'Lemon', serif;
+font-family: 'Poppins', sans-serif;
+font-size:30px;
 }
 #toys {
   position:absolute;
@@ -61,7 +78,7 @@ body {
   left:27px;
   width:6px;
   height:15px;
-  background:#5b5b5b;
+  background:#FF8C00;
 }
 #clawALL {
   position:absolute;
@@ -75,7 +92,7 @@ body {
   left:21px;
   width:6px;
   height:6px;
-  border:6px solid #5b5b5b;
+  border:6px solid #8B4513;
   border-radius:50%;
 }
 #leftClaw {
@@ -84,8 +101,8 @@ body {
   left:3px;
   width:16px;
   height:25px;
-  border-top:8px solid #5b5b5b;
-  border-left:4px solid #5b5b5b;
+  border-top:8px solid #8B4513;
+  border-left:4px solid #8B4513;
   transform-origin: top right;
   transform: rotate(-30deg);
 }
@@ -95,8 +112,8 @@ body {
   right:3px;
   width:16px;
   height:25px;
-  border-top:8px solid #5b5b5b;
-  border-right:4px solid #5b5b5b;
+  border-top:8px solid #8B4513;
+  border-right:4px solid #8B4513;
   transform-origin: top left;
   transform: rotate(30deg);
 }
